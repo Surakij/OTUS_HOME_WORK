@@ -1,0 +1,22 @@
+{
+  "name": "otus_home_work",
+  "version": "1.0.0",
+  "description": "testing home task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surakij/OTUS_HOME_WORK.git"
+  },
+  "author": "Sergey <surakig6@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Surakij/OTUS_HOME_WORK/issues"
+  },
+  "homepage": "https://github.com/Surakij/OTUS_HOME_WORK#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
