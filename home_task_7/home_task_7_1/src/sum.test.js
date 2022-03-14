@@ -9,3 +9,6 @@ test('adds 5 + 3 to equal 8', () => {
 test('adds -15 + -3 to equal -18', () => {
     expect(sum(-15, -3)).toBe(-18);
 });
+test('adds -15 + -3 to equal -18', () => {
+    expect(sum(-15, -3)).toBe(-18);
+});
