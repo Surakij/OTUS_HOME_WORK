@@ -1,4 +1,4 @@
-import getSumOfNumber from './getSumOfNumber';
+import {getSumOfNumber} from './getSumOfNumber';
 
 
 test('Should get sum of all numbers in number 123', () => {
