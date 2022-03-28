@@ -1,4 +1,4 @@
-function getSumOfNumber (number) {
+export function getSumOfNumber (number) {
     const arr = Array.from(String(number), Number);
     let sum = 0;
     arr.forEach(function (el) {
@@ -7,4 +7,3 @@ function getSumOfNumber (number) {
     return sum;
 }
 
-module.exports = getSumOfNumber;

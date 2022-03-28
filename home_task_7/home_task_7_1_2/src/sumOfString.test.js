@@ -1,4 +1,4 @@
-const sumOfString = require('./sumOfString');
+import {sumOfString} from './sumOfString';
 
 test('adds hello + world equal 10', () => {
     expect(sumOfString('hello', 'world')).toBe(10)

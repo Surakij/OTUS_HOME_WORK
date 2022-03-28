@@ -1,4 +1,4 @@
-const sumOfAllNumbers = require('./sumOfAllNumbers');
+import {sumOfAllNumbers} from './sumOfAllNumbers';
 
 test("Should counts sum of all the whole numbers", ()=>{
     expect(sumOfAllNumbers(1,3)).toBe(6);

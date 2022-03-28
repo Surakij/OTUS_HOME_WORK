@@ -1,4 +1,4 @@
-function getAverageOdd (number) {
+export function getAverageOdd (number) {
     let counter = 0;
     let sumOdd = 0;
     for (let i = 1; i <= number; i+=2) {
@@ -9,4 +9,3 @@ function getAverageOdd (number) {
     return sumOdd/counter;
 }
 
-module.exports = getAverageOdd;

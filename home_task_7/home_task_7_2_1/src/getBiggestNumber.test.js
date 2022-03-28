@@ -1,4 +1,4 @@
-const getBiggestNumber = require('./getBiggestNumber');
+import {getBiggestNumber} from './getBiggestNumber';
 
 test('Should shows biggest of two values', () => {
     expect(getBiggestNumber(1, 2)).toBe(2)

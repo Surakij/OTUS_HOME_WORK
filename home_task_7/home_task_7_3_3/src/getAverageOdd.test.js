@@ -1,4 +1,4 @@
-const getAverageOdd = require('./getAverageOdd');
+import {getAverageOdd} from './getAverageOdd';
 
 test('Should return sum of average all odd numbers', ()=>{
     expect(getAverageOdd(5)).toBe(3);

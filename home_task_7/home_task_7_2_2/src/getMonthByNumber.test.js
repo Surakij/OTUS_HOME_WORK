@@ -1,4 +1,4 @@
-const getMonthByNumber = require('./getMonthByNumber');
+import {getMonthByNumber} from './getMonthByNumber';
 
 test('Should show a month by giving number', () => {
    expect(getMonthByNumber(12)).toEqual('December')

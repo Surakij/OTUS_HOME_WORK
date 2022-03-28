@@ -1,4 +1,4 @@
-const multiplicationTableOn7 = require('./multiplicationTableOn7');
+import {multiplicationTableOn7} from './multiplicationTableOn7';
 
 test("show multiplication table on 7", ()=>{
    expect(multiplicationTableOn7(0)).toEqual(0)
