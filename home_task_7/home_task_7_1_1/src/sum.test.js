@@ -1,16 +1,19 @@
 import { sum } from "./sum";
 
 describe("sum function", () => {
-  test("adds 1 + 2 to equal 3", () => {
-    expect(sum(1, 2)).toBe(3);
+  test("sum of 1 + 2 to equal 3", () => {
+    jest.spyOn(console, "log");
+    sum(1, 2);
+    expect(console.log).toBeCalledWith(3);
   });
-  test("adds 5 + 3 to equal 8", () => {
-    expect(sum(5, 3)).toBe(8);
+  test("sum 5 + 3 to equal 8", () => {
+    jest.spyOn(console, "log");
+    sum(5, 3);
+    expect(console.log).toBeCalledWith(8);
   });
-  test("adds -15 + -3 to equal -18", () => {
-    expect(sum(-15, -3)).toBe(-18);
-  });
-  test("adds -15 + -3 to equal -18", () => {
-    expect(sum(-15, -3)).toBe(-18);
+  test("sum of -15 -3 to equal -18", () => {
+    jest.spyOn(console, "log");
+    sum(-15, -3);
+    expect(console.log).toBeCalledWith(-18);
   });
 });

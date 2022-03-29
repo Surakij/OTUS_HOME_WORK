@@ -1,3 +1,3 @@
 export function sumOfString(a, b) {
-  return a.length + b.length;
+  console.log(a.length + b.length);
 }

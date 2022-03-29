@@ -1,4 +1,5 @@
-export function getMonthByNumber(number) {
+export function getMonthByNumber() {
+  const number = +prompt("Enter every number from 1 to 12 to get month");
   const months = [
     "January",
     "February",
@@ -13,5 +14,5 @@ export function getMonthByNumber(number) {
     "November",
     "December",
   ];
-  return months[number - 1];
+  console.log(months[number - 1]);
 }

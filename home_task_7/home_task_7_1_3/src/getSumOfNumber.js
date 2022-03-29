@@ -1,8 +1,9 @@
-export function getSumOfNumber(number) {
+export function getSumOfNumber() {
+  const number = +prompt("Enter any xxx number");
   const arr = Array.from(String(number), Number);
   let sum = 0;
   arr.forEach((el) => {
     sum += el;
   });
-  return sum;
+  console.log(sum);
 }

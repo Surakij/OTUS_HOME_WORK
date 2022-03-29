@@ -5,5 +5,5 @@ export function sumOfAllNumbers(from, until) {
   for (let i = from; i <= until; i++) {
     counter += i;
   }
-  return counter;
+  console.log(counter);
 }
