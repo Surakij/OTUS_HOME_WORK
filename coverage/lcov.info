@@ -7,8 +7,11 @@ FNDA:4,sum
 DA:1,1
 DA:2,4
 DA:3,4
-LF:3
-LH:3
+DA:4,4
+DA:5,4
+DA:6,4
+LF:6
+LH:6
 BRDA:1,0,0,4
 BRF:1
 BRH:1
