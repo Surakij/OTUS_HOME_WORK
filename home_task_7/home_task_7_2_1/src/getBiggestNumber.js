@@ -1,5 +1,3 @@
-export function getBiggestNumber (a ,b) {
-    return (a > b)? a : b;
+export function getBiggestNumber(a, b) {
+  return (a > b) ? a : b;
 }
-
-
