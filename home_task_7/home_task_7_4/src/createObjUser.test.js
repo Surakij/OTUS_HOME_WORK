@@ -16,8 +16,11 @@ describe("addAge function", () => {
 describe("cloneObject function", () => {
   test("should clone initial obj and add new property role", () => {
     jest.spyOn(window, "prompt").mockImplementationOnce(() => "37");
-    const cloneUser = cloneObject(addAge(getUser()));
-    expect(cloneUser).toEqual({ name: "John", age: 37, role: "admin" });
+    expect(cloneObject(addAge(getUser()))).toEqual({
+      name: "John",
+      age: 37,
+      role: "admin",
+    });
   });
 });
 
