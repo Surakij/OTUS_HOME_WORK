@@ -13,7 +13,8 @@ module.exports = {
   plugins: ["jest"],
   rules: {
     "no-plusplus": "off",
-    "max-len": ["error", { ignoreComments: true }],
+    "max-len": "off",
     "import/prefer-default-export": "off",
+    "eslint no-console": "off",
   },
 };
