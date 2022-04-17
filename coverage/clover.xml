@@ -1,268 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1650220565767" clover="3.2.0">
-  <project timestamp="1650220565767" name="All files">
-    <metrics statements="184" coveredstatements="182" conditionals="33" coveredconditionals="33" methods="23" coveredmethods="22" elements="240" coveredelements="237" complexity="0" loc="184" ncloc="184" packages="13" files="13" classes="13"/>
-    <package name="home_task_7_1_1.src">
-      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="sum.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_1_1\src\sum.js">
-        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_1_2.src">
-      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="sumOfString.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_1_2\src\sumOfString.js">
-        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_1_3.src">
-      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="getSumOfNumber.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_1_3\src\getSumOfNumber.js">
-        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="9" type="stmt"/>
-        <line num="7" count="9" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_2_1.src">
-      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <file name="getBiggestNumber.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_2_1\src\getBiggestNumber.js">
-        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="3" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_2_2.src">
-      <metrics statements="18" coveredstatements="18" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="getMonthByNumber.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_2_2\src\getMonthByNumber.js">
-        <metrics statements="18" coveredstatements="18" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_2_3.src">
-      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="circleInSquare.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_2_3\src\circleInSquare.js">
-        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_3_1.src">
-      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="sumOfAllNumbers.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_3_1\src\sumOfAllNumbers.js">
-        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="54" type="stmt"/>
-        <line num="7" count="54" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_3_2.src">
-      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="multiplicationTableOn7.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_3_2\src\multiplicationTableOn7.js">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="9" type="stmt"/>
-        <line num="4" count="9" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_3_3.src">
-      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="getAverageOdd.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_3_3\src\getAverageOdd.js">
-        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="14" type="stmt"/>
-        <line num="9" count="14" type="stmt"/>
-        <line num="10" count="14" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_4.src">
-      <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
-      <file name="createObjUser.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_4\src\createObjUser.js">
-        <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_5.src">
-      <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
-      <file name="array.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_5\src\array.js">
-        <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="10" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_6.src">
-      <metrics statements="14" coveredstatements="14" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
-      <file name="functions.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_6\src\functions.js">
-        <metrics statements="14" coveredstatements="14" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="home_task_7_7.src">
-      <metrics statements="61" coveredstatements="59" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="2"/>
-      <file name="addParagraph.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_7\src\addParagraph.js">
-        <metrics statements="61" coveredstatements="59" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="2"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
-        <line num="17" count="4" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="19" count="4" type="stmt"/>
-        <line num="20" count="4" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="25" count="4" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
-        <line num="27" count="4" type="stmt"/>
-        <line num="28" count="4" type="stmt"/>
-        <line num="29" count="4" type="stmt"/>
-        <line num="30" count="4" type="stmt"/>
-        <line num="31" count="4" type="stmt"/>
-        <line num="32" count="4" type="stmt"/>
-        <line num="33" count="4" type="stmt"/>
-        <line num="34" count="4" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="4" type="stmt"/>
-        <line num="38" count="4" type="stmt"/>
-        <line num="39" count="4" type="stmt"/>
-        <line num="40" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="41" count="5" type="stmt"/>
-        <line num="42" count="5" type="stmt"/>
-        <line num="43" count="5" type="stmt"/>
-        <line num="44" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="45" count="2" type="stmt"/>
-        <line num="46" count="2" type="stmt"/>
-        <line num="47" count="5" type="stmt"/>
-        <line num="48" count="5" type="stmt"/>
-        <line num="49" count="5" type="stmt"/>
-        <line num="50" count="5" type="stmt"/>
-        <line num="51" count="5" type="stmt"/>
-        <line num="52" count="5" type="stmt"/>
-        <line num="53" count="5" type="stmt"/>
-        <line num="54" count="5" type="stmt"/>
-        <line num="55" count="5" type="stmt"/>
-        <line num="56" count="5" type="stmt"/>
-        <line num="57" count="5" type="stmt"/>
-        <line num="58" count="5" type="stmt"/>
-        <line num="59" count="4" type="stmt"/>
-        <line num="60" count="4" type="stmt"/>
-        <line num="61" count="4" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1650228936897" clover="3.2.0">
+  <project timestamp="1650228936897" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3" elements="40" coveredelements="40" complexity="0" loc="32" ncloc="32" packages="1" files="1" classes="1"/>
+    <file name="dateChecking.js" path="C:\Users\Sergey\WebstormProjects\OTUS_HOME_WORK\home_task_7\home_task_7_8\src\dateChecking.js">
+      <metrics statements="32" coveredstatements="32" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="31" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="32" count="2" type="stmt"/>
+    </file>
   </project>
 </coverage>
