@@ -16,5 +16,6 @@ module.exports = {
     "max-len": "off",
     "import/prefer-default-export": "off",
     "eslint no-console": "off",
+    "no-use-before-define": "off",
   },
 };
