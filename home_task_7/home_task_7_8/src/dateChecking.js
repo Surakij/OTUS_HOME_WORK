@@ -26,7 +26,7 @@ export function getDayOfWeek() {
 
 export function minCount() {
   const date = new Date();
-  console.log(date.getHours() * 60 + date.getMinutes());
+  console.log(date.getMinutes());
 }
 
 /* 3.*В двух переменных хранятся даты рождения двух

@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">96.72% </span>
+                <span class="strong">96.55% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>59/61</span>
+                <span class='fraction'>56/58</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">96.72% </span>
+                <span class="strong">96.55% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>59/61</span>
+                <span class='fraction'>56/58</span>
             </div>
         
             
@@ -121,14 +121,7 @@
 <a name='L56'></a><a href='#L56'>56</a>
 <a name='L57'></a><a href='#L57'>57</a>
 <a name='L58'></a><a href='#L58'>58</a>
-<a name='L59'></a><a href='#L59'>59</a>
-<a name='L60'></a><a href='#L60'>60</a>
-<a name='L61'></a><a href='#L61'>61</a>
-<a name='L62'></a><a href='#L62'>62</a>
-<a name='L63'></a><a href='#L63'>63</a>
-<a name='L64'></a><a href='#L64'>64</a>
-<a name='L65'></a><a href='#L65'>65</a>
-<a name='L66'></a><a href='#L66'>66</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L59'></a><a href='#L59'>59</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">4x</span>
@@ -185,79 +178,65 @@
 <span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export function smartMarkup(el) {
-// let body = document.body;
-// let el = document.createElement('div');
-// body.append(el)
-//creat div list &amp; add to wrapper
-    let divInner = document.createElement("div");
-    divInner.classList.add('list');
-    el.prepend(divInner);
+  // let body = document.body;
+  // let el = document.createElement('div');
+  // body.append(el)
+  // creat div list &amp; add to wrapper
+  const divInner = document.createElement("div");
+  divInner.classList.add("list");
+  el.prepend(divInner);
 &nbsp;
-//creat button
-    let button = document.createElement('button');
-    button.innerText = 'Add';
-    button.hidden = true;
-    el.prepend(button);
+  // creat button
+  const button = document.createElement("button");
+  button.innerText = "Add";
+  button.hidden = true;
+  el.prepend(button);
 &nbsp;
-//create input type = text
-    let input = document.createElement('input');
-    input.type = "text";
-    el.prepend(input);
+  // create input type = text
+  const input = document.createElement("input");
+  input.type = "text";
+  el.prepend(input);
 &nbsp;
-//create el p and insert into .list
-    divInner.innerHTML = `
+  // create el p and insert into .list
+  divInner.innerHTML = `
      &lt;p&gt;text1&lt;/p&gt;
      &lt;p&gt;text2&lt;/p&gt;
      &lt;p&gt;text3&lt;/p&gt;
 `;
 &nbsp;
-//code
+  // code
 &nbsp;
-    input.addEventListener("click", showButton);
-    button.addEventListener("click", addElementToList);
+  input.addEventListener("click", showButton);
+  button.addEventListener("click", addElementToList);
 &nbsp;
-//функция вызова кнопки - выводит кнопку из hidden
-<span class="fstat-no" title="function not covered" >    function showButton() {</span>
-<span class="cstat-no" title="statement not covered" >        button.hidden = false;</span>
-<span class="cstat-no" title="statement not covered" >    }</span>
+  // функция вызова кнопки - выводит кнопку из hidden
+<span class="fstat-no" title="function not covered" >  function showButton() {</span>
+<span class="cstat-no" title="statement not covered" >    button.hidden = false;</span>
+<span class="cstat-no" title="statement not covered" >  }</span>
 &nbsp;
-//по клику кнопки будет выполняться:
+  // по клику кнопки будет выполняться:
 &nbsp;
-    function addElementToList() {
-        //проверка на колво эл p и удаление первого эл
-        let listItems = divInner.querySelectorAll('p');
+  function addElementToList() {
+    // проверка на колво эл p и удаление первого эл
+    const listItems = divInner.querySelectorAll("p");
 &nbsp;
-        if (listItems.length &gt; 4) {
-            divInner.firstElementChild.remove();
-        }
-&nbsp;
-        //создаем новый элемент и записываем в него значение из поля ввода
-        let listItem = document.createElement("p");
-        //забираем текст из поля ввода
-        listItem.innerText = input.value;
-        //обращаюсь в DIV  и добавляем в него новый элемент
-        divInner.append(listItem);
-        // очистка поля ввода
-        input.value = "";
-        button.hidden = true;
-&nbsp;
+    if (listItems.length &gt; 4) {
+      divInner.firstElementChild.remove();
     }
 &nbsp;
-&nbsp;
+    // создаем новый элемент и записываем в него значение из поля ввода
+    const listItem = document.createElement("p");
+    // забираем текст из поля ввода
+    listItem.innerText = input.value;
+    // обращаюсь в DIV  и добавляем в него новый элемент
+    divInner.append(listItem);
+    // очистка поля ввода
+    input.value = "";
+    button.hidden = true;
+  }
 }
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -265,7 +244,7 @@
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sun Apr 17 2022 22:36:05 GMT+0400 (Грузия, стандартное время)
+                at Mon Apr 18 2022 21:11:57 GMT+0400 (Грузия, стандартное время)
             </div>
         <script src="../../prettify.js"></script>
         <script>
