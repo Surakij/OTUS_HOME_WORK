@@ -1,0 +1,51 @@
+{
+  "name": "otus_home_work",
+  "version": "1.0.0",
+  "description": "testing home task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "prettier --check . && eslint .",
+    "lint:fix": "prettier --write . && eslint . --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surakij/OTUS_HOME_WORK.git"
+  },
+  "author": "Sergey <surakig6@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Surakij/OTUS_HOME_WORK/issues"
+  },
+  "homepage": "https://github.com/Surakij/OTUS_HOME_WORK#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/jest": "^27.4.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^27.5.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "lint-staged": "^12.3.7",
+    "prettier": "2.6.1"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,css,md,yml}": "prettier --write"
+  }
+}
