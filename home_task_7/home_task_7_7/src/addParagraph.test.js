@@ -17,7 +17,7 @@ describe("smartMarkup", () => {
   });
 
   test("create input & button & div class .list ", () => {
-    expect(el.querySelector("div.list")).toBeTruthy();
+    expect(el.querySelector(".list")).toBeTruthy();
     expect(el.querySelector("button")).toBeTruthy();
     expect(el.querySelector("input")).toBeTruthy();
     expect(el.querySelectorAll("p").length).toBe(3);
@@ -34,5 +34,12 @@ describe("smartMarkup", () => {
       inputValue(textValue[i]);
     }
     expect(el.querySelectorAll("p").length).toBe(5);
+  });
+  test("check if button property is hidden", () => {
+    const input = el.querySelector("input");
+    const button = el.querySelector("button");
+    input.value = "test";
+    input.dispatchEvent(new Event("input"));
+    expect(button.hidden).toBeFalsy();
   });
 });

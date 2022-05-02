@@ -1,7 +1,4 @@
 export function smartMarkup(el) {
-  // let body = document.body;
-  // let el = document.createElement('div');
-  // body.append(el)
   // creat div list & add to wrapper
   const divInner = document.createElement("div");
   divInner.classList.add("list");
@@ -27,7 +24,8 @@ export function smartMarkup(el) {
 
   // code
 
-  input.addEventListener("click", showButton);
+  input.addEventListener("input", showButton);
+
   button.addEventListener("click", addElementToList);
 
   // функция вызова кнопки - выводит кнопку из hidden

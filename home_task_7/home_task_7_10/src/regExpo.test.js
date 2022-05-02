@@ -11,13 +11,13 @@ describe("dataSeparator", () => {
     jest
       .spyOn(window, "prompt")
       .mockImplementationOnce(() => "hello@world.com");
-    jest.spyOn(window, "alert").mockImplementationOnce(() => {});
+    jest.spyOn(window, "alert").mockImplementationOnce(() => "This is email");
     dataSeparator();
     expect(window.alert).toBeCalledWith("This is email");
   });
   test('show "input invalid" if data unknown', () => {
     jest.spyOn(window, "prompt").mockImplementationOnce(() => "@world.com");
-    jest.spyOn(window, "alert").mockImplementationOnce(() => {});
+    jest.spyOn(window, "alert").mockImplementationOnce(() => "input invalid");
     dataSeparator();
     expect(window.alert).toBeCalledWith("input invalid");
   });
